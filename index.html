@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio Website- Dhruv Tyagi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b1e1788b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span class="dhruv">D</span>hruv<span class="dhruv1">.</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" class="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>UI/UX</span> Designer</p>
+                <h1>Hi, I'm <span>Dhruv</span> Tyagi <br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------about-------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png" alt="user">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Dhruv, an ambitious undergraduate student pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE). I'm passionate about technology and dedicated to building a strong foundation in CSE. My coursework has given me a solid understanding of Computer programming and the way Computers can have significant impact in changing our lives. I am eager to apply this knowledge to real-world scenarios. I'm committed to continuous learning and am excited about the opportunities that lie ahead.
+                        Let's connect to discuss our shared interests and explore potential collaborations!Hello, I'm Dhruv, an ambitious undergraduate student pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE). I'm passionate about technology and dedicated to building a strong foundation in CSE. My coursework has given me a solid understanding of Computer programming and the way Computers can have significant impact in changing our lives. I am eager to apply this knowledge to real-world scenarios. I'm committed to continuous learning and am excited about the opportunities that lie ahead. Let's connect to discuss our shared interests and explore potential collaborations!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/app Interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web Interfaces</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>1.</span><br>Working For Bharat Intern currently</li>
+                            <li><span>2.</span><br>Davinchi resolve Video Editing</li>
+                            <li><span>3.</span><br>Not any other experience yet</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current</span><br>Persuing B.Tech in CSE with 7.88 CGPA on average</li>
+                            <li><span>Intermediate</span><br>Scored 86 %</li>
+                            <li><span>High School</span><br>90.8 % (Top 20 Toppers)</li>
+                        </ul>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------services----------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Welcome to Dhruv's Web Development Services, where creativity meets functionality to bring your digital vision to life. I am a passionate web developer with expertise in crafting dynamic and responsive websites tailored to meet your unique needs.  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Welcome to Dhruv's UI/UX Design Services, where aesthetics meet functionality to create memorable user experiences. As a dedicated UI/UX designer, I bring a passion for user-centric design and a keen eye for detail to every project. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h2>App Design</h2>
+                    <p>Welcome to Dhruv's App Design Services, where innovation meets user experience to create stunning and functional mobile applications. As a dedicated app designer, I combine creativity with technical expertise to deliver mobile solutions that captivate and engage users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------Portfolio----------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                My Work
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>A Weather App that fetches live weather data from an API and
+                            displays the current weather conditions which allows users to check the weather data such as Temperature, Humidity, and Wind Speed for a location 🚀 ❄</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Login App</h3>
+                        <p>I have created a simple login page that lets users feed their credentials and the server authenticates it on the basis of data in the database!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>Designed simple and easy to use Calculator app that makes it easier to navigate through the interface and perform calculations with more ease and precision!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class ="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!-- -------------------contact-------------------- -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>dhruvtyagi1001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8273519566</p>
+                    <div class="social-icons">
+                        
+                        <a href="https://www.linkedin.com/in/dhruv-tyagi-741169296/"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                        <a href="https://github.com/DHRUV543210"><i class="fa-brands fa-github"></i></a>
+                        
+                        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="Images/Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="email" name="Email" placeholder="Your Email ID">
+                        <textarea name="Message" rows="6" cols="30" placeholder="Enter Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Dhruv. Made with <i class="fa-solid fa-heart"></i> by a 3rd year CSE Student</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxV7nmYcBbozcbBr1WC338GwTuOvEJ4wP9gNSzW9zMExjCNBIBMQh9QVha-UEooKpBXkg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message Sent Successfully!";
+            setTimeout(function()){
+                msg.innerHTML = ""            
+        }, 5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+  </script>
+
+</body>
+</html>
